@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PistolMovement : MonoBehaviour
 {
-
-    /*private Joystick joystick;
+    private Joystick joystick;
     public float slideSpeed;
 
     private void Awake()
@@ -14,18 +13,15 @@ public class PistolMovement : MonoBehaviour
     }
 
 
-
-    void Update()
+    void FixedUpdate()
     {
-        //transform up cunku model ters rotasyonda***
-        if (joystick.Horizontal >= 0.2f && transform.position.x < 0.84f) //sað
+        if (joystick.Horizontal >= 0.1f && transform.position.x < 1.6f) 
         {
-            transform.position -= transform.up * Time.deltaTime * slideSpeed * (Mathf.Abs(joystick.Horizontal));
+            transform.position += (Mathf.Abs(joystick.Horizontal)) * slideSpeed * Time.deltaTime * transform.right;
         }
-        else if (joystick.Horizontal <= -0.2f && transform.position.x > -0.84f)//sol
+        else if (joystick.Horizontal <= -0.1f && transform.position.x > -1.6f)
         {
-            transform.position += transform.up * Time.deltaTime * slideSpeed * (Mathf.Abs(joystick.Horizontal));
+            transform.position -= (Mathf.Abs(joystick.Horizontal)) * slideSpeed * Time.deltaTime * transform.right;
         }
-
-    }*/
+    }
 }
