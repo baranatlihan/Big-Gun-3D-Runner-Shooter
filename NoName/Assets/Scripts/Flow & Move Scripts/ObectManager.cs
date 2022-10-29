@@ -33,7 +33,6 @@ public class ObectManager : MonoBehaviour
             transform.GetChild(1).gameObject.SetActive(false);
             transform.GetChild(0).gameObject.SetActive(true);
             GetComponent<MeshRenderer>().enabled = false;
-            Destroy(this.gameObject,8);
             //score ++ !
         }
     }

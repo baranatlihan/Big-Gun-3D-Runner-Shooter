@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5215479883077585003}
   m_Layer: 0
   m_Name: Asset1-2
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 5215479883266821164}
   m_Layer: 0
   m_Name: Asset1-8
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 5215479883526834050}
   m_Layer: 0
   m_Name: Asset1-1
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 5215479883539457479}
   m_Layer: 0
   m_Name: Asset1-4
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 5215479883908628764}
   m_Layer: 0
   m_Name: Asset1-5
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 5215479883911643219}
   m_Layer: 0
   m_Name: Asset1-3
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 5215479884388447873}
   m_Layer: 0
   m_Name: Asset1-7
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -852,7 +852,7 @@ GameObject:
   - component: {fileID: 5215479884401892516}
   m_Layer: 0
   m_Name: Asset1-6
-  m_TagString: Untagged
+  m_TagString: Little Boxes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,8 +7,6 @@ public class GameManager : MonoBehaviour
 
     public static int currenScore;
 
-
-
     
     public static bool LightSwitchStatic;
     public bool lightSwitch;

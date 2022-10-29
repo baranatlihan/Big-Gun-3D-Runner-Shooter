@@ -61,8 +61,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.5, y: 0.5, z: 0.6}
+  m_Center: {x: 0, y: 0, z: -0.05}
 --- !u!23 &1499040938
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -146,6 +146,14 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5215479883077585042, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215479883266821163, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
+      objectReference: {fileID: 0}
     - target: {fileID: 5215479883266821164, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_Drag
       value: 2
@@ -170,6 +178,10 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5215479883526834057, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
+      objectReference: {fileID: 0}
     - target: {fileID: 5215479883539457479, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_Drag
       value: 2
@@ -181,6 +193,14 @@ PrefabInstance:
     - target: {fileID: 5215479883539457479, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_AngularDrag
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215479883539457486, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215479883908628763, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
       objectReference: {fileID: 0}
     - target: {fileID: 5215479883908628764, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_Drag
@@ -205,6 +225,10 @@ PrefabInstance:
     - target: {fileID: 5215479883911643219, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_AngularDrag
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215479883911643226, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
       objectReference: {fileID: 0}
     - target: {fileID: 5215479884079222704, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_Name
@@ -269,6 +293,14 @@ PrefabInstance:
     - target: {fileID: 5215479884388447873, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_AngularDrag
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215479884388447880, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215479884401892515, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
+      propertyPath: m_TagString
+      value: Little Boxes
       objectReference: {fileID: 0}
     - target: {fileID: 5215479884401892516, guid: d18c3afd74ed9134a90f6e13b730e4a5, type: 3}
       propertyPath: m_Drag
