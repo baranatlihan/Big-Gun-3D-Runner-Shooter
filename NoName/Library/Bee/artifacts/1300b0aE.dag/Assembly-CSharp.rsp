@@ -361,7 +361,7 @@
 "Assets/Scripts/Enverioment Scripts/ColorChange.cs"
 "Assets/Scripts/Enverioment Scripts/setColorParts.cs"
 "Assets/Scripts/Flow & Move Scripts/FloorFlowScript.cs"
-"Assets/Scripts/Flow & Move Scripts/ObectFlow.cs"
+"Assets/Scripts/Flow & Move Scripts/ObectManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Object Pooler/IPooledObject.cs"
 "Assets/Scripts/Object Pooler/ObjectPooler.cs"
