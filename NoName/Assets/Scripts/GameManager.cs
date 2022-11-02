@@ -9,26 +9,15 @@ public class GameManager : MonoBehaviour
 
     
     public static bool LightSwitchStatic;
-    public bool lightSwitch;
-
-
 
     public static bool ballColorSwitchStatic;
-    public bool ballColorSwitch;
 
 
-    private void Start()
+    private void Awake()
     {
-        LightSwitchStatic = lightSwitch;
-        ballColorSwitchStatic = ballColorSwitch;
+        currenScore = 0;
     }
 
-    private void Update()
-    {
-        LightSwitchStatic = lightSwitch;
-        ballColorSwitchStatic = ballColorSwitch;
-
-    }
 
 
 }

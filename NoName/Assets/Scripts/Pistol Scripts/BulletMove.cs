@@ -47,6 +47,16 @@ public class BulletMove : MonoBehaviour, IPooledObject
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Little Boxes"))
+        {
+            other.GetComponent<Rigidbody>().AddForce(new Vector3(0f,10f,0f), ForceMode.VelocityChange);
+            Destroy(other.gameObject,3);
+        }
+    }
+
+
     public void newColor()
     {
         Color col = new Color(

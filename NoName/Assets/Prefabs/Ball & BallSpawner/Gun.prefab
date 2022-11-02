@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8292316513059490285}
   - component: {fileID: 8292316513059490286}
   - component: {fileID: 8292316513059490287}
-  - component: {fileID: 8292316513059490280}
+  - component: {fileID: 2136803337}
+  - component: {fileID: 2136803342}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8292316513059490281}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.102, y: 0.711, z: -4.983}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8292316514212128105}
@@ -85,20 +86,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8292316513059490280
-CapsuleCollider:
+--- !u!114 &2136803337
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8292316513059490281}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e5763cae68f74489238bc4c399ea06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2136803342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8292316513059490281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a14964172798b640a7881538f6cd70c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slideSpeed: 5
 --- !u!1 &8292316514212128106
 GameObject:
   m_ObjectHideFlags: 0

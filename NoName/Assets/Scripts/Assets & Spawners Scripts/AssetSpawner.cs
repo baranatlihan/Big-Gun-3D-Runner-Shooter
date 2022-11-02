@@ -9,6 +9,7 @@ public class AssetSpawner : MonoBehaviour
     private float timer;
     private Bounds bound;
 
+    public bool startSpawn;
 
     ObjectPooler objectPooler;
 
@@ -19,7 +20,8 @@ public class AssetSpawner : MonoBehaviour
 
         objectPooler = ObjectPooler.Instance;
 
-        bound = new Bounds(transform.position, new Vector3(3f, 0, 3f));
+        bound = new Bounds(transform.position, new Vector3(3f, 0, 6f));
+
     }
 
     private void Update()
@@ -35,9 +37,10 @@ public class AssetSpawner : MonoBehaviour
     
     }
 
+
+
     public void SpawnObj()
     {
-
         switch (Random.Range(1, 6))
         {
             case 0:
@@ -70,9 +73,8 @@ public class AssetSpawner : MonoBehaviour
                 objectPooler.SpawnFromPool("GreenAsset", RandomPoint(bound), Quaternion.identity);
                 break;
         }
-        timer = 0;
-    }
 
+    }
 
     public static Vector3 RandomPoint(Bounds bound)
     {

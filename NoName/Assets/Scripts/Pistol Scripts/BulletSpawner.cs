@@ -6,7 +6,7 @@ public class BulletSpawner : MonoBehaviour
 {
 
     private float timer;
-    public float fireRate;
+    static public float fireRate;
 
     ObjectPooler objectPooler;
 
@@ -15,6 +15,7 @@ public class BulletSpawner : MonoBehaviour
     {
         objectPooler = ObjectPooler.Instance;
         timer = 0f;
+        fireRate = 15f;
     }
 
     private void FixedUpdate()

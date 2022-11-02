@@ -6,17 +6,17 @@ public class Deactive : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.tag);
+        other.tag = "Destroyed";
 
 
-    if(other.CompareTag("Little Boxes")) 
-        { 
-            Destroy(other.gameObject);
-        }
-        else
-        {
-            other.gameObject.SetActive(false);
-        }    
-            
+        if(other.CompareTag("Little Boxes")) 
+            { 
+                Destroy(other.gameObject);
+            }
+            else
+            {
+                other.gameObject.SetActive(false);
+            }
+
     }
 }
