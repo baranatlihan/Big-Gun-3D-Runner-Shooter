@@ -469,6 +469,7 @@ GameObject:
   - component: {fileID: 5215479883908628767}
   - component: {fileID: 5215479883908628760}
   - component: {fileID: 5215479883908628764}
+  - component: {fileID: 722806071}
   m_Layer: 0
   m_Name: Asset1-5
   m_TagString: Little Boxes
@@ -570,6 +571,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &722806071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215479883908628763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2887507cce812f4abd50bdce45b404d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5215479883911643226
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +749,7 @@ GameObject:
   - component: {fileID: 5215479884388447884}
   - component: {fileID: 5215479884388447885}
   - component: {fileID: 5215479884388447873}
+  - component: {fileID: 722806070}
   m_Layer: 0
   m_Name: Asset1-7
   m_TagString: Little Boxes
@@ -837,6 +851,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &722806070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215479884388447880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2887507cce812f4abd50bdce45b404d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5215479884401892515
 GameObject:
   m_ObjectHideFlags: 0

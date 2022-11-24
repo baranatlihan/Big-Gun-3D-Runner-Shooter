@@ -9,6 +9,8 @@ public class AssetSpawner : MonoBehaviour
     private float timer;
     private Bounds bound;
 
+    private int spawnInt;
+
     public bool startSpawn;
 
     ObjectPooler objectPooler;
@@ -29,7 +31,7 @@ public class AssetSpawner : MonoBehaviour
         timer += Time.deltaTime;
 
 
-        if (timer > spawnTime)
+        if (timer > spawnTime && GameManager.levelAction)
         {
             SpawnObj();
             timer = 0;
@@ -41,10 +43,13 @@ public class AssetSpawner : MonoBehaviour
 
     public void SpawnObj()
     {
-        switch (Random.Range(1, 6))
+        spawnInt= Random.Range(1, 4);
+        Debug.Log(spawnInt);
+
+        switch (spawnInt)
         {
-            case 0:
-                break;
+            /*case 0:
+                break;*/
 
             case 1:
                 objectPooler.SpawnFromPool("RedAsset", RandomPoint(bound), Quaternion.identity);
@@ -58,20 +63,20 @@ public class AssetSpawner : MonoBehaviour
                 objectPooler.SpawnFromPool("GreenAsset", RandomPoint(bound), Quaternion.identity);
                 break;
 
-            case 4:
-                objectPooler.SpawnFromPool("RedAsset", RandomPoint(bound), Quaternion.identity);
-                objectPooler.SpawnFromPool("YellowAsset", RandomPoint(bound), Quaternion.identity);
-                break;
+                /*case 4:
+                    objectPooler.SpawnFromPool("RedAsset", RandomPoint(bound), Quaternion.identity);
+                    objectPooler.SpawnFromPool("YellowAsset", RandomPoint(bound) + new Vector3(Random.Range(0.2f, 1.5f), 0, Random.Range(1, 1.5f)), Quaternion.identity);
+                    break;
 
-            case 5:
-                objectPooler.SpawnFromPool("YellowAsset", RandomPoint(bound), Quaternion.identity);
-                objectPooler.SpawnFromPool("GreenAsset", RandomPoint(bound), Quaternion.identity);
-                break;
+                case 5:
+                    objectPooler.SpawnFromPool("YellowAsset", RandomPoint(bound), Quaternion.identity);
+                    objectPooler.SpawnFromPool("GreenAsset", RandomPoint(bound) + new Vector3(Random.Range(0.2f, 1.5f), 0, Random.Range(1, 1.5f)), Quaternion.identity);
+                    break;
 
-            case 6:
-                objectPooler.SpawnFromPool("RedAsset", RandomPoint(bound), Quaternion.identity);
-                objectPooler.SpawnFromPool("GreenAsset", RandomPoint(bound), Quaternion.identity);
-                break;
+                case 6:
+                    objectPooler.SpawnFromPool("RedAsset", RandomPoint(bound), Quaternion.identity);
+                    objectPooler.SpawnFromPool("GreenAsset", RandomPoint(bound) + new Vector3(Random.Range(0.2f, 1.5f), 0, Random.Range(1, 1.5f)), Quaternion.identity);
+                    break;*/
         }
 
     }

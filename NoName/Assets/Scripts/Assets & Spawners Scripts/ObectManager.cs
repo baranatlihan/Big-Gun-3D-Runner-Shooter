@@ -24,15 +24,23 @@ public class ObectManager : MonoBehaviour
 
     private void Update()
     {
-        transform.position += -flowSpeed * Time.deltaTime * transform.forward;
 
-        if (durability <= 0)
+        if (GameManager.levelAction)
+        {
+            transform.position += -flowSpeed * Time.deltaTime * transform.forward;
+        }
+ 
+
+        if (durability <= 0 || !GameManager.levelAction)
         {
             transform.GetChild(1).gameObject.SetActive(false);
             transform.GetChild(0).gameObject.SetActive(true);
             GetComponent<MeshRenderer>().enabled = false;
             GameManager.currenScore++;
         }
+
+
+
     }
 
 
@@ -64,8 +72,6 @@ public class ObectManager : MonoBehaviour
 
         flowSpeed += 0.5f;
     }
-
-
 
 
 

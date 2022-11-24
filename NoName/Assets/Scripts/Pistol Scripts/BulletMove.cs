@@ -4,27 +4,23 @@ using UnityEngine;
 
 public class BulletMove : MonoBehaviour, IPooledObject
 {
-    public float bulletSpeed = 10f;
+    public float bulletSpeed = 15f;
 
-    public float upForce = .1f;
-    public float sideForce = .1f;
+    public float upForce = .15f;
+    public float sideForce = .15f;
 
     private float timer;
 
     public void OnObjectSpawn()
     {
-        if (GameManager.ballColorSwitchStatic)
-        {
-            newColor();
-        }
-        else
-        {
-            GetComponent<MeshRenderer>().material.color = Color.white;
-
-        }
-
-
         timer = 0;
+
+
+        newColor();
+
+
+
+
         float xForce = Random.Range(-sideForce, sideForce);
         float yForce = Random.Range(upForce, upForce / 2);
 
@@ -51,7 +47,7 @@ public class BulletMove : MonoBehaviour, IPooledObject
     {
         if (other.CompareTag("Little Boxes"))
         {
-            other.GetComponent<Rigidbody>().AddForce(new Vector3(0f,10f,0f), ForceMode.VelocityChange);
+            other.GetComponent<Rigidbody>().AddForce(new Vector3(0f,5f,0f), ForceMode.VelocityChange);
             Destroy(other.gameObject,3);
         }
     }

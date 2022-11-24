@@ -9,7 +9,7 @@ public class StartInstantiateAsset : MonoBehaviour
     private Bounds bound;
     void Start()
     {
-        bound = new Bounds(new Vector3(0, 0.3125f, 9f), new Vector3(3f, 0, 12f));
+        bound = new Bounds(new Vector3(0, 0.3125f, 16f), new Vector3(2f, 0, 12f));
 
         for (int i = 0; i < 4; i++)
         {

@@ -5,8 +5,8 @@ using UnityEngine;
 public class BulletSpawner : MonoBehaviour
 {
 
-    private float timer;
-    static public float fireRate;
+    private float spawnTimer;
+    public float fireRate = 15f;
 
     ObjectPooler objectPooler;
 
@@ -14,18 +14,18 @@ public class BulletSpawner : MonoBehaviour
     private void Start()
     {
         objectPooler = ObjectPooler.Instance;
-        timer = 0f;
-        fireRate = 15f;
+        spawnTimer = 0f;
+
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        timer += Time.deltaTime;
+        spawnTimer += Time.deltaTime;
 
-        if(timer >  1/ fireRate)
+        if(spawnTimer >  1/ fireRate && GameManager.levelAction)
         {
             objectPooler.SpawnFromPool("Ball", transform.position, Quaternion.identity);
-            timer = 0;
+            spawnTimer = 0;
         }
     }
 

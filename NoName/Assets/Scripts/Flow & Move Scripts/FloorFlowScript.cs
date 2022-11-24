@@ -5,7 +5,7 @@ using UnityEngine;
 public class FloorFlowScript : MonoBehaviour
 {
 
-    public float scrollSpeed = -0.25f;
+    public float scrollSpeed;
     Renderer rend;
     void Start()
     {
@@ -15,7 +15,12 @@ public class FloorFlowScript : MonoBehaviour
 
     void Update()
     {
-        float offset = Time.time * scrollSpeed;
-        rend.material.SetTextureOffset("_MainTex", new Vector2(0, offset));
+
+        if (GameManager.levelAction)
+        {
+            float offset = Time.time * scrollSpeed;
+            rend.material.SetTextureOffset("_MainTex", new Vector2(0, offset));
+        }
+
     }
 }
