@@ -11,9 +11,10 @@ public class GameManager : MonoBehaviour
     [Tooltip("Flow end level time")]
     [SerializeField]
     private float levelTime;
+    static public float levelTimeStatic;
     public static float timer;
     public static bool levelAction;
-
+    public static Joystick joystick;
 
     [Tooltip("About Enverioment variables")]
     public static bool LightSwitchStatic;
@@ -25,8 +26,14 @@ public class GameManager : MonoBehaviour
         currenScore = 0;
         timer = 0;  //level time timer
         levelAction = true;
+
+        joystick = FindObjectOfType<Joystick>();
     }
 
+    private void Start()
+    {
+        levelTimeStatic = levelTime;
+    }
 
     private void Update()
     {

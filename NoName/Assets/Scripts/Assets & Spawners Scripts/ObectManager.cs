@@ -35,8 +35,10 @@ public class ObectManager : MonoBehaviour
         {
             transform.GetChild(1).gameObject.SetActive(false);
             transform.GetChild(0).gameObject.SetActive(true);
+
+            GetComponent<BoxCollider>().enabled = false; // bug fix
+
             GetComponent<MeshRenderer>().enabled = false;
-            GameManager.currenScore++;
         }
 
 
@@ -57,6 +59,10 @@ public class ObectManager : MonoBehaviour
             durability--;
             durabilityTMesh.text = durability.ToString();
 
+        }else if (other.CompareTag("Gun"))
+        {
+            GameManager.levelAction = false;
+            GameManager.joystick.gameObject.SetActive(false);
         }
 
 
@@ -66,11 +72,11 @@ public class ObectManager : MonoBehaviour
 
     IEnumerator BallHitCoroutine()
     {
-        flowSpeed -= 0.5f;
+        flowSpeed -= 1f;
 
          yield return new WaitForSeconds(0.1f);
 
-        flowSpeed += 0.5f;
+        flowSpeed += 1f;
     }
 
 

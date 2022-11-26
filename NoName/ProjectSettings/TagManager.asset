@@ -8,6 +8,7 @@ TagManager:
   - Little Boxes
   - ColorSpecial
   - Destroyed
+  - Gun
   layers:
   - Default
   - TransparentFX
