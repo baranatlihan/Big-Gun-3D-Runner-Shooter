@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 30
         targetSdkVersion 31
         ndk {
             abiFilters 'armeabi-v7a'

@@ -27,22 +27,24 @@ application
 ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-17:17
 	android:extractNativeLibs
 		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+	android:theme
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-102
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
 	android:screenOrientation
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-149
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-111
 	android:launchMode
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:150-181
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:112-143
 	android:hardwareAccelerated
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:399-434
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:415-450
 	android:exported
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:435-458
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:451-474
 	android:resizeableActivity
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:364-398
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:326-360
 	android:configChanges
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:182-363
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:144-325
 	android:theme
-		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:361-414
 	android:name
 		ADDED from C:\Unity Projects\Big Gun 3D Runner Shooter\NoName\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

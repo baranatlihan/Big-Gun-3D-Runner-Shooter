@@ -48,6 +48,7 @@ public class BulletMove : MonoBehaviour, IPooledObject
         if (other.CompareTag("Little Boxes"))
         {
             other.GetComponent<Rigidbody>().AddForce(new Vector3(0f,5f,0f), ForceMode.VelocityChange);
+            GameManager.currenScore++;
             Destroy(other.gameObject,3);
         }
     }

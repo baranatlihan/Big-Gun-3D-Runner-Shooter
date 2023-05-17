@@ -62,7 +62,6 @@ public class ObectManager : MonoBehaviour
         }else if (other.CompareTag("Gun"))
         {
             GameManager.levelAction = false;
-            GameManager.joystick.gameObject.SetActive(false);
         }
 
 

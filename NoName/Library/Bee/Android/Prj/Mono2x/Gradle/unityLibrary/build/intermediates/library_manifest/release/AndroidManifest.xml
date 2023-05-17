@@ -6,7 +6,7 @@
     android:versionName="0.1" >
 
     <uses-sdk
-        android:minSdkVersion="22"
+        android:minSdkVersion="30"
         android:targetSdkVersion="31" />
 
     <uses-feature android:glEsVersion="0x00030000" />
@@ -27,7 +27,9 @@
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
 
-    <application android:extractNativeLibs="true" >
+    <application
+        android:extractNativeLibs="true"
+        android:theme="@style/UnityThemeSelector.Translucent" >
         <activity
             android:name="com.unity3d.player.UnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -35,8 +37,8 @@
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/UnityThemeSelector" >
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/UnityThemeSelector.Translucent" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

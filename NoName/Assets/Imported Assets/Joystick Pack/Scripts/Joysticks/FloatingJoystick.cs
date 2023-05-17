@@ -13,6 +13,11 @@ public class FloatingJoystick : Joystick
 
     public override void OnPointerDown(PointerEventData eventData)
     {
+        UIManager.tapToStartTextStatic.SetActive(false);
+
+
+
+        Time.timeScale = 1;
         background.anchoredPosition = ScreenPointToAnchoredPosition(eventData.position);
         background.gameObject.SetActive(true);
         base.OnPointerDown(eventData);

@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.BaboliGames.NoName",
         "split": "",
-        "minSdkVersion": "22"
+        "minSdkVersion": "30"
       }
     }
   ]
